@@ -37,7 +37,7 @@ remove = "|".join(wordlist)
 regex = re.compile(r"\b("+remove+r")\b", flags=re.IGNORECASE)
 text = re.sub(regex, "", text)
 
-"""
+
 #date handling
 yearList = re.findall(r"\d{4}", text)
 for i in yearList:
@@ -52,8 +52,7 @@ for i in yearList:
 tensList = re.findall(r"[1-9]0's|[1-9]0s",text)
 for i in tensList:
     numList = re.findall(r"\d+",i)
-    text = text.replace(i,tensMap[numList[0]])
-"""  
+    text = text.replace(i,tensMap[numList[0]]) 
 
 #punctuation and line conditioners
 text = text.replace(".", " . \n")
