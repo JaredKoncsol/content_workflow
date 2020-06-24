@@ -22,7 +22,7 @@ tensMap = {
 #
 #
 # Constants for IBM COS values
-COS_AUTH_ENDPOINT = "https://iam.cloud.ibm.com/identity/token"
+COS_AUTH_ENDPOINT = "[redacted]"
 #COS_API_KEY = ""
 #COS_CRN_RID = ""
 #COS_ENDPOINT = ""
