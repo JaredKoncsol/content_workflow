@@ -2,7 +2,7 @@
 # this set of scripts represents a portion of my work on the IBM content management workflow. Please note that this is not a comprehensive workflow due to the collaborative and proprietary nature of the work. This is purely for portfolio presentation.
 # Also available are documentation samples.
 
-cleaner.py and Transcript_Cleaner.py prepare machine learning training content to be processed by the training API
+cleaner.py and Transcript_Cleaning.py prepare machine learning training content to be processed by the training API
 
 by default, arguments are taken through shell script, but testing code is available to target indiviudal file for testing
 
